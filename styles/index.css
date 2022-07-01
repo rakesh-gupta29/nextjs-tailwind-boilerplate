@@ -1,0 +1,19 @@
+/* 
+ h1: banner headings or blade titles 
+ h2:title and header text
+ p: readable text  , adjusted line heights 
+ span: text  
+*/
+
+h1 {
+  font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
+}
+h2 {
+  font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+}
+span {
+  font-size: clamp(1rem, 1vw, 1.25rem);
+}
+p {
+  font-size: clamp(1rem, 1vw, 1.5rem);
+}

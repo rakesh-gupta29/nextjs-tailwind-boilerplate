@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+* {
+  font-family: "Sora", sans-serif !important;
+}
+
+@layer components {
+  .d {
+    @apply border-2 border-red-800;
+  }
+  .width-container {
+    @apply max-w-screen-2xl mx-auto;
+  }
+  .wide-width-container {
+    @apply max-w-[160rem] mx-auto;
+  }
+}
+@layer base {
+  a {
+    @apply text-dark transition-colors  hover:text-primary duration-150  cursor-pointer;
+  }
+}
