@@ -1,14 +1,6 @@
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./atoms/**/*.{js,ts,jsx,tsx}",
-    "./blades/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    fontFamily: {
-      sora: ["Sora", "sans-serif"],
-    },
     extend: {
       colors: {
         primary: "#053C5E",
@@ -17,5 +9,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 };
